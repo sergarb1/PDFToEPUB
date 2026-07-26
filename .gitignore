@@ -1,0 +1,30 @@
+# Output files
+*.md
+!README.md
+!AGENTS.md
+*.epub
+
+# Input PDFs (users bring their own)
+*.pdf
+
+# Python cache
+__pycache__/
+*.pyc
+
+# HuggingFace / torch cache
+.cache*/
+.cache/
+.cachekde/
+
+# Temporary directories
+*_temp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor/tool directories
+.serena/
+.venv/
+venv/
+env/
